@@ -1,0 +1,35 @@
+# Backup folders
+/app_backup/
+/app_incomplete_*/
+
+# Flutter / Dart generated files
+**/.dart_tool/
+**/.pub/
+**/.pub-cache/
+**/build/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+
+# IDE and local configuration
+**/.idea/
+**/*.iml
+**/local.properties
+**/.gradle/
+**/.cxx/
+**/.externalNativeBuild/
+
+# Signing keys
+**/key.properties
+**/*.jks
+**/*.keystore
+
+# Environment files
+**/.env
+**/.env.*
+!**/.env.example
+
+# Logs and system files
+*.log
+.DS_Store
+Thumbs.db*.bak
+*.bak
